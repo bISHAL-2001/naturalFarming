@@ -20,7 +20,7 @@ body{
 header{
     background-color:whitesmoke;
     width: 100%;
-    position: fixed;
+    position: relative;
     
 
 }
@@ -56,6 +56,7 @@ a{
 
 
 .navbar{
+    
     min-height: 60px;
     display: flex;
     justify-content:space-between;
@@ -459,9 +460,6 @@ form input,form textarea{
   padding: 20px;
   outline:black;
   font-size: 15px;
-}
-#phonenumber{
-  width: 476px;
 }
 
 form button{
